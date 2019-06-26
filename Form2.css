@@ -1,4 +1,4 @@
-input[type=text], select, textarea{
+#input[type=text], select, textarea{
 	width: 20%;
 	padding:18px;
 	border:30px ;
@@ -9,7 +9,7 @@ input[type=text], select, textarea{
 	resize: vertical;
 
 }
-input[type=submit]{
+#input[type=submit]{
 	background-color: blue;
 	padding: 10px 18px;
 	border:none;
@@ -17,13 +17,13 @@ input[type=submit]{
 	cursor: pointer;
 }
 
-body {
+#body {
 	text-align: center;
 	zoom: 100%;
 	background-color: lime;
 	
 
 }
-div {
+#div {
 	padding: 10px;
 }
