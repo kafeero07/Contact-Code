@@ -1,6 +1,6 @@
 #input[type=text], select, textarea{
 	width: 20%;
-	padding:18px;
+	padding:20px;
 	border:30px ;
 	border-radius: 20px;
 	box-sizing:  ;
@@ -9,21 +9,21 @@
 	resize: vertical;
 
 }
-#input[type=submit]{
+input[type=submit]{
 	background-color: blue;
-	padding: 10px 18px;
+	padding: 20px 18px;
 	border:none;
 	border-radius: 8px;
 	cursor: pointer;
 }
 
-#body {
+body {
 	text-align: center;
-	zoom: 100%;
+	zoom: 150%;
 	background-color: lime;
 	
 
 }
-#div {
+div {
 	padding: 10px;
 }
