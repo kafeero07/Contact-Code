@@ -1,4 +1,4 @@
-inpu/t[type=text], select, textarea{
+input[type=text], select, textarea{
 	width: 20%;
 	padding:18px;
 	border:30px ;
@@ -21,7 +21,7 @@ body {
 	text-align: center;
 	zoom: 100%;
 	background-color: lime;
-	border-color: solid black;
+	
 
 }
 div {
