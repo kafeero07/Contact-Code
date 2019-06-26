@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+ <html>
+    <head>
+       <title>Personal contact</title>
+	<link rel="stylesheet" type="text/css" href="Form2.css">
+</head>
+
+	<body>	
+	<div>
+		<!-- <form> -->
+			<h1>Add contact</h1>
+				<div>
+					<label>Name: </label>
+					<input type="text" name="firstname">	
+				</div>
+				<div>
+					<label>Phone: </label>
+					<input type="text" name="phone">
+				</div>
+				<input type="submit" onclick="saveContact()">
+		<!-- </form> -->
+	</div>
+
+	<div>
+		<h1>Search contact</h1>
+		<input type="text" name="search_phrase">	
+		<input value="Search" type="submit" onclick="searchContacts()">
+		<p><b>Results</b></p>
+		<p id="result"></p>
+	</div>
+
+	<script type="text/javascript" src="Form3.js"></script>
+		
+	
+</body>
+</html>
